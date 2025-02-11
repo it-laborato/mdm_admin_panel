@@ -1,10 +1,5 @@
-# Используем базовый образ с JDK 11 для сборки
-FROM openjdk:11-jdk-slim AS builder
-
-# Устанавливаем необходимые утилиты
-RUN apt-get update && apt-get install -y \
-    unzip \
-    && rm -rf /var/lib/apt/lists/*
+# Используем JDK 11 и Maven
+FROM maven:3.8.6-openjdk-11 AS builder
 
 # Создаем рабочую директорию
 WORKDIR /app
@@ -12,20 +7,23 @@ WORKDIR /app
 # Копируем исходники
 COPY . .
 
-# Собираем проект с помощью Gradle
-RUN ./gradlew build -x test
+# Копируем build.properties.example, если build.properties отсутствует
+RUN cp server/build.properties.example server/build.properties
 
-# Финальный контейнер с JRE
-FROM openjdk:11-jre-slim
+# Собираем проект через Maven
+RUN mvn clean install -DskipTests
 
-# Создаем рабочую папку
-WORKDIR /app
+# Используем Tomcat для деплоя
+FROM tomcat:9.0
 
-# Копируем собранный .jar файл из стадии builder
-COPY --from=builder /app/build/libs/hmdm-server.jar ./hmdm-server.jar
+# Создаем рабочую директорию в Tomcat
+WORKDIR /usr/local/tomcat/webapps/
 
-# Открываем порт
-EXPOSE 8080
+# Копируем собранный .war-файл
+COPY --from=builder /app/server/target/launcher.war ./ROOT.war
 
-# Запускаем приложение
-CMD ["java", "-jar", "hmdm-server.jar"]
+# Expose порт Tomcat
+EXPOSE 8090
+
+# Запускаем Tomcat
+CMD ["catalina.sh", "run"]
