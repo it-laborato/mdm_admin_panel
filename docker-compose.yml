@@ -14,10 +14,10 @@ services:
 
   hmdm-server:
     build: .
-    depends_on:
-      - db
+    # depends_on:
+    #   - db
     ports:
-      - "8080:8080"
+      - "8090:8080"
     environment:
       SQL_HOST: postgresql
       SQL_USER: ${SQL_USER}
