@@ -907,9 +907,9 @@ document.localization[ 'ru_RU' ] = {
     'breadcrumb.config.details': 'Детали',
     'breadcrumb.application.versions': 'Версии',
 
-    'app.name': 'Headwind MDM',
-    'app.vendor.name':"h-mdm.com",
-    'app.vendor.link':"https://h-mdm.com",
+    "app.name": 'MDMLab',
+    'app.vendor.name':"mdmlab.com",
+    'app.vendor.link':"https://laborato.org",
     'app.description': '- система управления мобильными устройствами с открытым кодом',
     'app.title': '${appName} - панель управления',
 

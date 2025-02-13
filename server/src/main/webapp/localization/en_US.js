@@ -906,9 +906,9 @@ document.localization ['en_US'] = {
     'breadcrumb.config.details': 'Details',
     'breadcrumb.application.versions': 'Versions',
 
-    'app.name': 'Headwind MDM',
-    'app.vendor.name':"h-mdm.com",
-    'app.vendor.link':"https://h-mdm.com",
+    "app.name": 'MDMLab',
+    'app.vendor.name':"mdmlab.com",
+    'app.vendor.link':"https://laborato.org",
     'app.description': 'is an open source mobile device management system',
     'app.title': '${appName} Web Panel',
 
