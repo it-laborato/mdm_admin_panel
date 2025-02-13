@@ -25,8 +25,8 @@ document.localization[ 'ru_RU' ] = {
     'signup.name.used': 'Клиент с таким именем пользователя уже зарегистрирован',
     'signup.complete': 'Спасибо за регистрацию!',
     'signup.email.check': 'Пожалуйста, проверьте свою электронную почту и перейдите по ссылке, чтобы завершить регистрацию!',
-    'signup.complete.title': 'Ваша учетная запись в ${appName} почти готова!',
-    'signup.ready.title': 'Ваша учетная запись в ${appName} готова!',
+    'signup.complete.title': 'Ваша учетная запись в mdmlab! почти готова!',
+    'signup.ready.title': 'Ваша учетная запись в MDM-lab готова!',
     'signup.customer.id': 'Имя пользователя',
     'signup.customer.id.placeholder': 'Использовать только буквы и цифры',
     'signup.customer.id.invalid': 'Используйте 6 или более символов, только буквы и цифры',
@@ -911,12 +911,12 @@ document.localization[ 'ru_RU' ] = {
     'app.vendor.name':"mdmlab.com",
     'app.vendor.link':"https://laborato.org",
     'app.description': '- система управления мобильными устройствами с открытым кодом',
-    'app.title': '${appName} - панель управления',
+    'app.title': 'MDM-lab - панель управления',
 
     'box.show.my.apps.only': 'Показать только мои приложения',
     'configuration.app.version.upgrade.message': 'Установлена версия ${installedVersion}, доступна версия ${latestVersion}',
 
-    'about.line.1': 'Панель управления ${appName}',
+    'about.line.1': 'Панель управления MDM-lab',
     'about.line.2': 'Оболочка для корпоративных Android-устройств',
     'about.line.3': 'Версия ${versionNumber}',
     'about.line.4': 'Используемые плагины',
@@ -927,7 +927,7 @@ document.localization[ 'ru_RU' ] = {
     'qrcode.help.line2': 'Выполните сброс к заводским настройкам',
     'qrcode.help.line3': 'Нажмите 7 раз подряд на любом месте стартового экрана (должен появиться скрытый режим сканирования QR-кода)',
     'qrcode.help.line4': 'Следуйте инструкциям устройства: примите условия использования, подключитесь к Wi-Fi, отсканируйте QR-код',
-    'qrcode.help.line5': 'Код может содержать также ID устройства в системе ${appName} (после настройки его не нужно будет вводить). Для включения ID устройства в QR код, введите его на этом экране и нажмите "Обновить".',
+    'qrcode.help.line5': 'Код может содержать также ID устройства в системе MDM-lab (после настройки его не нужно будет вводить). Для включения ID устройства в QR код, введите его на этом экране и нажмите "Обновить".',
 
     'form.configuration.app.version.select.select.title': 'Выберите версию для установки',
     'form.configuration.app.version.select.version.check.off': 'Отключить проверку версии',
@@ -940,7 +940,7 @@ document.localization[ 'ru_RU' ] = {
     'hint.step.4': 'Найдите доступный ID во вкладке "устройства". Нажмите "Обновить", чтобы включить его в QR код.',
 
     'ie.browser.notice.1': 'К сожалению, браузер Internet Explorer не поддерживается.',
-    'ie.browser.notice.2': 'Рекомендуемый браузер для использования ${appName} - <a href="https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop">Chrome</a>.',
+    'ie.browser.notice.2': 'Рекомендуемый браузер для использования MDM-lab - <a href="https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop">Chrome</a>.',
 
     'form.resolved.duplicate.pkg.text1': 'ID пакета "${pkg}" уже используется приложениями, указанными ниже.',
     'form.resolved.duplicate.pkg.text2': 'Вы хотите добавить новое приложение или новую версию существующего приложения?',
