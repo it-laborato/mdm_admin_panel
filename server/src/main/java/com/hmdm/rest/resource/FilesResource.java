@@ -1,6 +1,6 @@
 /*
  *
- * MDM-Lab: Open Source Android MDM Software
+ * MDM-Lab: Android MDM Software
  * https://laborato.org
  *
 *
