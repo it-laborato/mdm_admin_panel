@@ -109,7 +109,7 @@
 .navbar.navbar-default.header .navbar-nav > li > a,
 .navbar.navbar-default.header .navbar-brand,
 .navbar.navbar-default.header .logo-text a {
-    color: var(--core-mdmlab-white);
+    color: var(--ui-mdmlab-black-50);
 }
 
 /* ============================= */
