@@ -50,7 +50,7 @@
             'app/components/plugins/xtra/xtra.module.js',
             'app/components/plugins/xtra/views/xtra.html',
             NULL,
-<!--            'plugin.xtra.localization.key.name',-->
+            'plugin.xtra.localization.key.name',
             'plugin_xtra_access',
             'plugin_xtra_access',
             'plugin_xtra_access'
