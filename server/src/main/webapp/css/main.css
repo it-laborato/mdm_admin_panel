@@ -152,6 +152,11 @@
     font-weight: bold;
 }
 
+.device-indicator {
+    width: 15px !important;
+    height: 15px !important;
+}
+
 /* ============================= */
 /* Поля ввода */
 /* ============================= */
