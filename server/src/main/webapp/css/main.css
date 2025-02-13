@@ -5,6 +5,10 @@
 .navbar a {
     cursor: pointer;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
 
 .device-search-group {
     width: 150px;
@@ -90,7 +94,6 @@
 .btn-default {
     color: #fff;
     background-color: #4f46e5;
-    border-color: #ccc;
 }
 
 .navbar-nav .expiry-warning {
@@ -124,13 +127,13 @@
 .header .logo-text {
     margin-top: 10px;
     padding-left: 15px;
-    color: #afd0df;
+    color: #fff;
     font-size: 20px;
 }
 
 .header .logo-text a, .header .logo-text a:active {
     text-decoration: none;
-    color: #afd0df !important;
+    color: #fff !important;
     font-size: 20px !important;
 }
 
