@@ -206,6 +206,11 @@ input:focus, textarea:focus, select:focus {
 /* ============================= */
 /* Табы (Вкладки) */
 /* ============================= */
+.navbar {
+    position: relative;
+    z-index: 9999;
+}
+
 .nav-tabs {
     background-color: var(--core-mdmlab-black);
     border-bottom: 2px solid var(--core-mdmlab-blue);
