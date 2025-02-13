@@ -1012,7 +1012,6 @@ document.localization ['en_US'] = {
     'account.expired': 'Your account has expired. Please contact the seller to renew your account.',
     'device.limit.achieved': 'Cannot add a device because you have reached your limit. Please remove some devices or contact the seller to extend your device limit.',
 
-    'menu.updates': 'Check for updates',
     'updates.title': 'Updates',
     'updates.disabled.custom': 'Custom version, please update manually',
     'updates.disabled.not_master': 'Ask the hosting provider to update',
