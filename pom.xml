@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
   ~
-  ~ Headwind MDM: Open Source Android MDM Software
-  ~ https://h-mdm.com
-  ~
-  ~ Copyright (C) 2019 Headwind Solutions LLC (http://h-sms.com)
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -28,7 +24,7 @@
     <artifactId>root</artifactId>
     <packaging>pom</packaging>
     <version>0.1.0</version>
-    <name>Headwind MDM</name>
+    <name>MDM-Lab</name>
 
     <modules>
         <module>common</module>
@@ -67,7 +63,6 @@
 
         <app>${timestamp}</app>
 
-        <opensource.dist.dir>/Headwind/AndroidKioskWeb/opensource</opensource.dist.dir>
 
         <glassfish-jersey.version>2.25.1</glassfish-jersey.version>
         <guice-bridge.version>2.6.1</guice-bridge.version>

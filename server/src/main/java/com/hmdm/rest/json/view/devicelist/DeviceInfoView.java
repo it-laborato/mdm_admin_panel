@@ -1,9 +1,9 @@
 /*
  *
- * Headwind MDM: Open Source Android MDM Software
- * https://h-mdm.com
+ * MDM-Lab: Open Source Android MDM Software
+ * https://laborato.org
  *
- * Copyright (C) 2019 Headwind Solutions LLC (http://h-sms.com)
+*
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -125,7 +125,7 @@ public class DeviceInfoView implements Serializable {
         return deviceInfo.getSerial();
     }
 
-    @ApiModelProperty("A flag showing if Headwind MDM is set as default launcher on a device")
+    @ApiModelProperty("A flag showing if MDM-Lab is set as default launcher on a device")
     public Boolean getDefaultLauncher() {
         return deviceInfo.getDefaultLauncher();
     }

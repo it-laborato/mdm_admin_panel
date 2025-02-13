@@ -1,9 +1,9 @@
 /*
  *
- * Headwind MDM: Open Source Android MDM Software
- * https://h-mdm.com
+ * MDM-Lab: Open Source Android MDM Software
+ * https://laborato.org
  *
- * Copyright (C) 2019 Headwind Solutions LLC (http://h-sms.com)
+*
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -91,7 +91,7 @@ public enum ResourceAuditInfo {
     private final boolean payload;
 
     /**
-     * <p>A flag indicating if response is in Headwind MDM standard format and should be checked for errors.</p>
+     * <p>A flag indicating if response is in MDM-Lab standard format and should be checked for errors.</p>
      */
     private final boolean checkResponse;
 

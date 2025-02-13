@@ -1,9 +1,9 @@
 /*
  *
- * Headwind MDM: Open Source Android MDM Software
- * https://h-mdm.com
+ * MDM-Lab: Open Source Android MDM Software
+ * https://laborato.org
  *
- * Copyright (C) 2019 Headwind Solutions LLC (http://h-sms.com)
+*
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -291,7 +291,7 @@ public class CustomerDAO {
             configurationMapper.insertConfigurationApplications(newConfiguration.getId(), configApplications);
             applicationMapper.getPrecedingVersion(newConfiguration.getId());
         }
-        // Files are not copied because there's no "shared files" in Headwind MDM
+        // Files are not copied because there's no "shared files" in MDM-Lab
 
         return newConfiguration.getId();
     }

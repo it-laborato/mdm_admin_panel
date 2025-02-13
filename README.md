@@ -1,10 +1,10 @@
-# Headwind MDM - a platform for corporate Android applications
+# MDM-Lab - a platform for corporate Android applications
 
-Headwind MDM is a Mobile Device Management platform for Android devices, designed for corporate app developers and IT managers.
+MDM-Lab is a Mobile Device Management platform for Android devices, designed for corporate app developers and IT managers.
 
-(c) 2020 h-mdm.com
+(c) 2020 laborato.org
 
-[https://h-mdm.com](https://h-mdm.com)
+[https://laborato.org](https://laborato.org)
 
 ## Features
 
@@ -29,11 +29,11 @@ The *Enterprise edition* of the platform has more features:
  - Premium support of enterprise users
  - Custom plugin development services
 
-The enterprise edition may be ordered on the [project website](https://h-mdm.com).
+The enterprise edition may be ordered on the [project website](https://laborato.org).
 
 ## Quick start
 
-Headwind MDM control panel is cross-platform (it is written in Java and uses Tomcat web server). However the best OS for the deployment of Headwind MDM control panel is Ubuntu Linux. 
+MDM-Lab control panel is cross-platform (it is written in Java and uses Tomcat web server). However the best OS for the deployment of MDM-Lab control panel is Ubuntu Linux. 
 
  - Clone the project and build it (see BUILD.txt for details)
  - Install the web panel to the server by using the installer script
@@ -43,11 +43,11 @@ Headwind MDM control panel is cross-platform (it is written in Java and uses Tom
  
 ## Contributing
 
-Headwind MDM is a platform making corporate app development easier. We are happy to get more powerful plugins related to mobile device management. 
+MDM-Lab is a platform making corporate app development easier. We are happy to get more powerful plugins related to mobile device management. 
 
-Please contact us on the [project website](https://h-mdm.com) if you'd like to:
+Please contact us on the [project website](https://laborato.org) if you'd like to:
 
- - develop a public plugin for Headwind MDM
+ - develop a public plugin for MDM-Lab
  - suggest a feature
  - order the custom development
  - report a bug

@@ -1,9 +1,9 @@
 /*
  *
- * Headwind MDM: Open Source Android MDM Software
- * https://h-mdm.com
+ * MDM-Lab: Open Source Android MDM Software
+ * https://laborato.org
  *
- * Copyright (C) 2019 Headwind Solutions LLC (http://h-sms.com)
+*
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -928,7 +928,7 @@ public class ApplicationDAO extends AbstractLinkedDAO<Application, ApplicationCo
 //        guardDowngradeAppVersion(existingApplication, applicationVersion);
 
         // The user may wish to add the same application and version when he moves
-        // the application from h-mdm.com to his own server
+        // the application from laborato.org to his own server
         int duplicateVersionId = getDuplicateAppVersion(existingApplication, applicationVersion);
         if (duplicateVersionId > 0) {
             applicationVersion.setId(duplicateVersionId);

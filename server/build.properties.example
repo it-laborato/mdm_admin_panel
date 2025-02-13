@@ -50,7 +50,7 @@ plugin.devicelog.persistence.config.class=com.hmdm.plugins.devicelog.persistence
 # MQTT notification server local URI
 mqtt.server.uri=localhost:31000
 
-# MQTT authentication for more security (supported by Headwind MDM launcher v5.05 and above)
+# MQTT authentication for more security (supported by MDM-Lab launcher v5.05 and above)
 mqtt.auth=true
 
 # Delaying MQTT messages in milliseconds to avoid congestion

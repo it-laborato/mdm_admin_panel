@@ -36,9 +36,9 @@
 
     <Parameter name="plugin.photo.enable.places" value="${plugin.photo.enable.places}"/>
 
-    <!-- If Headwind MDM uses an embedded MQTT broker, this parameter is a
+    <!-- If MDM-Lab uses an embedded MQTT broker, this parameter is a
     local address to which the server binds to listen on port 31000
-    (MQTT for Push notifications), for example, demo.h-mdm.com:31000
+    (MQTT for Push notifications), for example, demo.laborato.org:31000
     If an external MQTT server is used, this is the address of this MQTT server
     -->
     <Parameter name="mqtt.server.uri" value="${mqtt.server.uri}"/>
@@ -53,7 +53,7 @@
     <Parameter name="mqtt.client.tag" value="${mqtt.client.tag}"/>
 
     <!-- Optional tag for MQTT authentication for more security 
-         (supported by Headwind MDM launcher v5.05 and above) -->
+         (supported by MDM-Lab launcher v5.05 and above) -->
     <Parameter name="mqtt.auth" value="${mqtt.auth}"/>
 
     <!-- Optional tag for delaying MQTT messages in milliseconds
