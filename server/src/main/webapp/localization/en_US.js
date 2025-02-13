@@ -909,7 +909,7 @@ document.localization ['en_US'] = {
     'app.name': 'MDM-Lab',
     'app.vendor.name':"laborato.org",
     'app.vendor.link':"https://laborato.org",
-    'app.description': 'is an open source mobile device management system',
+    'app.description': 'is a mobile device management system',
     'app.title': '${appName} Web Panel',
 
     'box.show.my.apps.only': 'Display my applications only',

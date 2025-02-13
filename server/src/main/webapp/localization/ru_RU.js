@@ -910,7 +910,7 @@ document.localization[ 'ru_RU' ] = {
     'app.name': 'MDM-Lab',
     'app.vendor.name':"laborato.org",
     'app.vendor.link':"https://laborato.org",
-    'app.description': '- система управления мобильными устройствами с открытым кодом',
+    'app.description': '- система управления мобильными устройствами',
     'app.title': '${appName} - панель управления',
 
     'box.show.my.apps.only': 'Показать только мои приложения',
