@@ -3,23 +3,6 @@
 }
 
 
-/* Переопределяем цвет фона и текста */
-.navbar.navbar-default.header {
-    background-color: #000000; /* чёрный фон */
-    border-color: #000000;     /* убираем светлую границу */
-}
-
-.navbar.navbar-default.header .navbar-nav > li > a,
-.navbar.navbar-default.header .navbar-brand,
-.navbar.navbar-default.header .logo-text a {
-    color: #ffffff; /* белый цвет текста */
-}
-
-/* При желании можно убрать тень или дополнительные эффекты */
-.navbar.navbar-default.header {
-    box-shadow: none;
-}
-
 
 
 .navbar a {
