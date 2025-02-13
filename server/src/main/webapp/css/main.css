@@ -85,7 +85,12 @@
 
 .header {
     height: 50px;
-    background-color: #7a9ab9;
+    background-color: #0d0d12;
+}
+.btn-default {
+    color: #fff;
+    background-color: #4f46e5;
+    border-color: #ccc;
 }
 
 .navbar-nav .expiry-warning {
