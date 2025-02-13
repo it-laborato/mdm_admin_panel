@@ -53,7 +53,7 @@ angular.module( 'headwind-kiosk' )
     } );
 
     rebranding.query(function(value) {
-        $scope.appName = value.appName;
+        $scope.appName = "mdmlab";
     });
 
     updateDateTime = function() {
