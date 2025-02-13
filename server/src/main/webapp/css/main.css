@@ -1,6 +1,26 @@
 * {
-    font-size: 14px;
+    font-size: 18px;
 }
+
+
+/* Переопределяем цвет фона и текста */
+.navbar.navbar-default.header {
+    background-color: #000000; /* чёрный фон */
+    border-color: #000000;     /* убираем светлую границу */
+}
+
+.navbar.navbar-default.header .navbar-nav > li > a,
+.navbar.navbar-default.header .navbar-brand,
+.navbar.navbar-default.header .logo-text a {
+    color: #ffffff; /* белый цвет текста */
+}
+
+/* При желании можно убрать тень или дополнительные эффекты */
+.navbar.navbar-default.header {
+    box-shadow: none;
+}
+
+
 
 .navbar a {
     cursor: pointer;
@@ -103,8 +123,8 @@
 }
 
 .login-logo .logo {
-    font-size: 30px;
-    color: #4c788c;
+    font-size: 25px;
+    color: #000000;
 }
 
 .login-footer {
